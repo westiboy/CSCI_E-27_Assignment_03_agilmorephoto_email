@@ -12,6 +12,13 @@
 //   7. Menu
 //   8. Thumbnail
 
+//Custom
+//Variables
+$primary-background-color: #DCF0FF;
+$secondary-background-color: transparentize($primary-background-color, 0.9);
+$alt1-background-color: opacify($secondary-background-color, 0.3);
+$primary-font: 'Poiret One', cursive;
+$secondary-font: 'Josefin Sans', sans-serif;
 
 // 1. Global
 // ---------
@@ -33,7 +40,7 @@ $global-gutter: 16px;
 $body-background: $light-gray;
 $container-background: $white;
 $global-font-color: $black;
-$body-font-family: Helvetica, Arial, sans-serif;
+$body-font-family: $secondary-font; //Helvetica, Arial, sans-serif;
 $global-padding: 16px;
 $global-margin: 16px;
 $global-radius: 3px;
@@ -60,7 +67,7 @@ $header-color: inherit;
 $global-line-height: 1.3;
 $global-font-size: 16px;
 $body-line-height: 19px;
-$header-font-family: $body-font-family;
+$header-font-family: $primary-font; //$body-font-family;
 $header-font-weight: $global-font-weight;
 $h1-font-size: 34px;
 $h2-font-size: 30px;
